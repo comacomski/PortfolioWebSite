@@ -1,5 +1,10 @@
 If you want to run this project locally, please run 'npm install' first.
 TO BE DONE:
+1. make separate component for bubbles background;
+2. finish settings feature
+3. make it mobile friendly
+4. finish about, projects and contact components
+5. ...
 
 
 # Getting Started with Create React App

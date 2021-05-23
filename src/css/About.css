@@ -1,0 +1,17 @@
+#aboutt{
+    position: absolute;
+    background-color: black;
+    color:white;
+    height: 100%;
+    width: 100%;
+}
+#frame{
+    position: relative;
+    background-color: white;
+    height: 91%;
+    width: 50vw;
+    top:0;
+    left:25vw;
+    color: black;
+    border: 5px solid orange;
+}

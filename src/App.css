@@ -1,38 +1,66 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nav{
+  position: absolute;
+  background-color:transparent;
+  text-align: right;
+  color:white;
+  height: 10%;
+  width: 99%;
+  top:1%;
+  left: 0;
+  z-index: 10;
+ /* border: 5px solid white;*/
+ display: inline;
 }
+#fa{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  position: absolute;
+  display: inline;
+  left: 1%;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fa-cog {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#footer{
+  position: absolute;
+  background-color:transparent;
+  text-align: center;
+  color:white;
+  height: 8%;
+  width: 99%;
+  top:93%;
+  left: 0;
+  z-index: 10;
+ /* border: 5px solid white;*/
+ display: inline;
 }
+i{
+  margin: 1%;
+  cursor: pointer;
+}
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.intro{
+  background-color: rgb(214, 172, 93);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+    width: 0;
+  z-index: 11;
+  animation-name: otvaranje;
+  animation-duration: 2s;
+}
+@keyframes otvaranje{
+  0% {width: 100%;height: 100%;}
+  100% { height: 100%;width: 0;}
 }

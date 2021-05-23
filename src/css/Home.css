@@ -1,0 +1,136 @@
+#wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+#canvas1{
+    position:absolute;
+   /* background: black;*/
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+
+#about{
+    position:absolute;
+    background-color: black;
+    width: 33.3333%;
+    height: 100%;
+    top:0;
+    left: 0;
+
+    z-index: 2;
+/*    border: 5px solid white;*/
+background-position: center;
+background-size: cover;
+
+}
+#about3{
+    position:absolute;
+  /*  background-color: black;*/
+    width: 33.3333%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 4;
+}
+#projects{
+    position:absolute;
+    background-color: black;
+    width: 33.3333%;
+    height: 100%;
+    top:0;
+    left: 33.3333%;
+    z-index: 2;
+  /*  border: 5px solid white;*/
+  background-position: center;
+  background-size: cover;
+}
+#projects3{
+    position:absolute;
+   /* background-color: black;*/
+    width: 33.3333%;
+    height: 100%;
+    top:0;
+    left: 33.3333%;
+    z-index: 4;
+}
+#contact{
+    position:absolute;
+    background-color: black;
+    width: 33.3333%;
+    height: 100%;
+    top:0;
+    left: 66.6666%;
+    z-index: 2;
+  /*  border: 5px solid white;*/
+  background-position: center;
+  background-size: cover;
+}
+#contact3{
+    position:absolute;
+   /* background-color: black;*/
+    width: 33.3333%;
+    height: 100%;
+    top:0;
+    left: 66.6666%;
+    z-index: 4;
+}
+#about2{
+    position: absolute;
+    width: 25%;
+    height: auto;
+   /* border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    background-color: black;*/
+    color: white;
+    text-align: center;
+    top:40%;
+    left:4.15%;
+    z-index: 5;
+    font-size: 3vmin;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+#projects2{
+    position: absolute;
+    width: 25%;
+    height: auto;
+   /* border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    background-color: black;*/
+    color: white;
+    text-align: center;
+    top:40%;
+    left:37%;
+    z-index: 5;
+    font-size: 3vmin;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#contact2{
+    position: absolute;
+    width: 25%;
+    height: auto;
+  /*  border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    background-color: black;*/
+    color: white;
+    text-align: center;
+    top:40%;
+    left:70.75%;
+    z-index: 5;
+    font-size: 3vmin;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+p{
+    font-size: small;
+}

@@ -39,6 +39,7 @@ class About extends React.Component {
                     -Keil uVision
                     -Eclipse
                     -Git
+                    awdaw
                     </p>
                 </div>
             </div>);

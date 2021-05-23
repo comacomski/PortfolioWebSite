@@ -1,3 +1,5 @@
+If you want to run this project locally, please run 'npm install' first.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

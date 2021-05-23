@@ -1,4 +1,4 @@
-If you want to run this project locally, please run 'npm install' first.
+If you want to run this project locally, please run 'npm install' first!
 
 # Getting Started with Create React App
 

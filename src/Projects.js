@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/About.css'
+import './css/Components.css'
 
 class Projects extends React.Component{
 
@@ -9,12 +9,15 @@ class Projects extends React.Component{
     }
     render(){
 
-        return(
-        <div id="wrapper">
-            <br></br>
-            <h1>Projects:</h1>
-
-        </div>);
+        return (
+            <div id="wrapper">
+           
+                <div id="frame">
+                  
+                   
+                 
+                </div>
+            </div>);
     }
 }
 export default Projects;

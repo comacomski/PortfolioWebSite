@@ -239,7 +239,7 @@ class Home extends React.Component{
                 <div id="projects3"onMouseOver={this.overCanvas} style={styles5}></div>
                 <div id="contact3"onMouseOver={this.overCanvas} style={styles6}></div>
                 <canvas id = "canvas1" onMouseOver={this.overCanvas}></canvas>
-                <div id = "about2" className="about" onMouseOver={this.overAbout} onClick={this.handleClick}><b className="about">About me</b><p className="about">Education, interest fields, bio.</p></div>
+                <div id = "about2" className="about" onMouseOver={this.overAbout} onClick={this.handleClick}><b className="about">CV</b><p className="about">Education, interest fields, bio.</p></div>
                 <div id = "projects2" className="projects" onMouseOver={this.overProjects} onClick={this.handleClick}><b className="projects">Projects</b><p className="projects">Click here to see my work.</p></div>
                 <div id = "contact2" className="contact" onMouseOver={this.overContact} onClick={this.handleClick}><b className="contact">Contact</b><p className="contact">Send me an email.</p></div>
             </div>

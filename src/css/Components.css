@@ -1,0 +1,56 @@
+#wrapper{
+    position: absolute;
+    background-color: black;
+    color:white;
+    height: 100%;
+    width: 100%;
+}
+#frame{
+    position: relative;
+    background-color: white;
+    height: 91%;
+    width: 50vw;
+    top:0;
+    left:25vw;
+    color: black;
+    border: 5px solid orange;
+}
+
+/*bootstrap contact form*/
+.contactb{
+    padding: 14%;
+    height: 70%;
+}
+.col-md-5{
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-7{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
